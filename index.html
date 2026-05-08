@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喵喵星球 | 昆明专业德文/渐层/缅因猫猫舍</title>
+    <meta name="description" content="喵喵星球是昆明专业猫舍，主营德文卷毛猫、渐层、缅因猫。健康保障、血统纯正、售后完善。昆明买猫推荐，云南专业猫舍。">
+    <meta name="keywords" content="昆明买猫,昆明猫舍,德文卷毛猫,渐层猫,缅因猫,云南猫舍,喵喵星球">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="喵喵星球 | 昆明专业猫舍">
+    <meta property="og:description" content="主营德文卷毛猫、渐层、缅因猫，健康保障，血统纯正">
+    <meta property="og:type" content="local_business">
+
+    <!-- Schema.org 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "喵喵星球",
+        "description": "昆明专业猫舍，主营德文卷毛猫、渐层、缅因猫",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "25.0389",
+            "longitude": "102.7183"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "中国"
+        },
+        "priceRange": "¥¥",
+        "openingHours": "Mo-Su 10:00-20:00",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "主营品种",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "德文卷毛猫"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "渐层猫"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "缅因猫"
+                    }
+                }
+            ]
+        },
+        "sameAs": [
+            "https://www.xiaohongshu.com/user/profile/你的小红书ID",
+            "https://www.douyin.com/user/你的抖音ID"
+        ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+            background: linear-gradient(135deg, #fff5f5 0%, #fef3e2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(10px);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff6b6b;
+        }
+
+        .logo span {
+            color: #feca57;
+        }
+
+        .contact-btn {
+            background: linear-gradient(135deg, #ff6b6b, #feca57);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255,107,107,0.3);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ff6b6b, #feca57);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .hero-tags {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: white;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 14px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        /* Breeds Section */
+        .breeds {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .breeds-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .breed-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .breed-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .breed-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .breed-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .breed-card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .feature-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* About Section */
+        .about {
+            padding: 80px 0;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-text h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .about-image {
+            background: linear-gradient(135deg, #ff6b6b20, #feca5720);
+            border-radius: 20px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .contact-item {
+            padding: 30px;
+            background: #fff5f5;
+            border-radius: 15px;
+        }
+
+        .contact-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #ff6b6b;
+        }
+
+        .contact-item p {
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">喵喵<span>星球</span></div>
+            <button class="contact-btn" onclick="location.href='#contact'">联系我们</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>喵喵星球 · 专业猫舍</h1>
+            <p>昆明专业繁育德文卷毛猫、渐层、缅因猫<br>健康保障 · 血统纯正 · 售后完善</p>
+            <div class="hero-tags">
+                <span class="tag">📍 昆明市</span>
+                <span class="tag">🐱 德文卷毛猫</span>
+                <span class="tag">🐱 渐层</span>
+                <span class="tag">🐱 缅因猫</span>
+                <span class="tag">✨ 全国可发</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="breeds">
+        <div class="container">
+            <h2 class="section-title">主营品种</h2>
+            <div class="breeds-grid">
+                <div class="breed-card">
+                    <div class="breed-icon">🐱</div>
+                    <h3>德文卷毛猫</h3>
+                    <p>性格活泼亲人，毛发卷曲柔软，低敏品种。被称为"披着猫皮的狗"，粘人指数满分。</p>
+                </div>
+                <div class="breed-card">
+                    <div class="breed-icon">🐱</div>
+                    <h3>渐层</h3>
+                    <p>英短渐层，毛色层次分明，圆脸大眼，性格温和安静，适合家庭饲养。</p>
+                </div>
+                <div class="breed-card">
+                    <div class="breed-icon">🐱</div>
+                    <h3>缅因猫</h3>
+                    <p>体型最大的家猫品种，性格温顺友善，毛发浓密，被称为"温柔的巨人"。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">为什么选择喵喵星球</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🏥</div>
+                    <h3>健康保障</h3>
+                    <p>所有猫咪均已完成疫苗接种，提供健康证明，签订正规购买合同</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📜</div>
+                    <h3>血统纯正</h3>
+                    <p>可提供血统证书，种猫来源清晰，繁育规范</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🤝</div>
+                    <h3>售后完善</h3>
+                    <p>提供终身养护咨询，健康问题包退换</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🚚</div>
+                    <h3>全国配送</h3>
+                    <p>专业宠物托运，安全送达全国各地</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>关于喵喵星球</h2>
+                    <p>喵喵星球位于云南省昆明市，是一家专注于德文卷毛猫、渐层、缅因猫的专业猫舍。</p>
+                    <p>我们坚持科学繁育，以猫咪健康为第一优先。每只小猫都在充满爱的环境中成长，性格亲人，身体健康。</p>
+                    <p>无论您在昆明本地还是全国其他城市，我们都致力于为您提供最优质的购猫体验。</p>
+                </div>
+                <div class="about-image">
+                    🐱
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📍 地址</h3>
+                    <p>云南省昆明市</p>
+                    <p>（具体地址请咨询）</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📞 电话/微信</h3>
+                    <p>【请填写您的联系方式】</p>
+                </div>
+                <div class="contact-item">
+                    <h3>⏰ 营业时间</h3>
+                    <p>周一至周日</p>
+                    <p>10:00 - 20:00</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📱 社交媒体</h3>
+                    <p>小红书/抖音：喵喵星球</p>
+                    <p>大众点评：喵喵星球</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 喵喵星球 · 昆明专业猫舍 | 德文卷毛猫 · 渐层 · 缅因猫</p>
+            <p style="margin-top: 10px;">昆明买猫推荐 | 云南专业猫舍 | 德文猫舍 | 缅因猫舍</p>
+        </div>
+    </footer>
+</body>
+</html>
