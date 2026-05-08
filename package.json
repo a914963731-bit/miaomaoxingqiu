@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "description": "喵喵星球落地页",
     "scripts": {
-      "build": "mkdir -p dist && cp index.html vercel.json dist/",
-      "start": "echo 'Static site, no build needed'"
+      "build": "mkdir -p dist && cp index.html dist/index.html"
+    }
   }
- }
