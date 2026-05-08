@@ -2,8 +2,16 @@
     "envId": "a123-d4gh9ao78c9bb1230",
     "version": "2.0",
     "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
-    "static": {
-      "src": "./",
-      "dest": "/"
+    "framework": {
+      "name": "website",
+      "plugins": {
+        "client": {
+          "use": "@cloudbase/framework-plugin-website",
+          "inputs": {
+            "buildCommand": "npm run build",
+            "outputPath": "dist"
+          }
+        }
+      }
     }
   }
