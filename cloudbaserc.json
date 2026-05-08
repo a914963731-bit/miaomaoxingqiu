@@ -1,15 +1,9 @@
 {
+    "envId": "a123-d4gh9ao78c9bb1230",
     "version": "2.0",
-    "framework": {
-      "name": "static",
-      "plugins": {
-        "static": {
-          "use": "@cloudbase/framework-plugin-static",
-          "inputs": {
-            "outputPath": "./",
-            "cloudPath": "/"
-          }
-        }
-      }
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "static": {
+      "src": "./",
+      "dest": "/"
     }
   }
