@@ -1,14 +1,15 @@
 {
-  "version": "2.0",
-  "framework": {
-    "name": "static",
-    "plugins": {
-      "static": {
-        "use": "@cloudbase/framework-plugin-static",
-        "inputs": {
-          "outputPath": "./"
+    "version": "2.0",
+    "framework": {
+      "name": "static",
+      "plugins": {
+        "static": {
+          "use": "@cloudbase/framework-plugin-static",
+          "inputs": {
+            "outputPath": "./",
+            "cloudPath": "/"
+          }
         }
       }
     }
   }
-}
